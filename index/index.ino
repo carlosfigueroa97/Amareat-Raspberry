@@ -40,7 +40,7 @@ void loop() {
     delay(1000);
     checkAvailableESP01();
 
-    ESP01.println("AT+CIPSTART=4,\"TCP\",\"amareat-dev.herokuapp.com\"");
+    ESP01.println("AT+CIPSTART=4,\"TCP\",\"amareat-dev.herokuapp.com\",80");
     delay(1000);
     checkAvailableESP01();
 
