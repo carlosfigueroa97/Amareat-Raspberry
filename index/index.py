@@ -5,23 +5,23 @@ import RPi.GPIO as GPIO
 sio = socketio.Client()
 
 #PROPERTIES
-HOST = 'https://amareat-dev.herokuapp.com'
+HOST = ''
 
 QUERY = {
-    'idRoom': '60a1d2445e9e790f3445d1f2',
-    'status': '0'
+    'idRoom': '',
+    'status': ''
 }
 
-AIR_TYPE_DEVICE = '60a46cef9171dc166b909684'
-BULB_TYPE_DEVICE = '60a46d389171dc166b909685'
+AIR_TYPE_DEVICE = ''
+BULB_TYPE_DEVICE = ''
 
 #GPIO'S
 BULB = 12
 AIR_CONDITIONING = 7
 
 # NAME SOCKETS
-QUERY_CLIENT = 'client data'
-GET_DEVICES_BY_ROOM = 'get devices by room'
+QUERY_CLIENT = ''
+GET_DEVICES_BY_ROOM = ''
 
 # THROW EVENT WHEN OCURRED A CONNECTION WITH THE SERVER
 @sio.event
